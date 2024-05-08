@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "p": "npx lessc index.less index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "loadsh": "^0.0.4"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
   }
 }
